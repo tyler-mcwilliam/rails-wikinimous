@@ -1,0 +1,19 @@
+
+<body>
+  <nav>
+    <h1> Wikinimous </h1>
+    <a href='articles/new'>New Article</a>
+  </nav>
+
+  <div class='feed'>
+    <ol>
+      <% @articles.each do |article| %>
+        <ul>
+          <div id='index_title'><%= link_to article.title, "articles/#{article.id}" %></div>
+          <p><%= article.content %></p>
+        </ul>
+      <% end %>
+    </ol>
+  </div>
+</body>
+

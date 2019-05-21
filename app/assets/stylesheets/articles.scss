@@ -1,0 +1,33 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+nav {
+  display: flex;
+  background-color: gray;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  justify-content: space-between;
+  vertical-align: center;
+}
+
+.feed {
+  margin-left: 16.6666666667%;
+  width: 66.6666666667%;
+}
+
+.content {
+  margin-left: 16.6666666667%;
+  width: 66.6666666667%;
+}
+
+ul #index_title {
+  color: #337ab7;
+  text-decoration: none;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#title {
+  justify: center;
+}
